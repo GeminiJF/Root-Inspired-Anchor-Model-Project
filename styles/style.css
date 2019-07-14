@@ -37,7 +37,7 @@ h1 {
 h2 {
     text-align: left;
     font-family: Arial, sans-serif;
-    color: #99ff99;
+    color: #2eb82e;
     padding:15px;
     margin-left: 300px;
     margin-right: 300px;
@@ -46,7 +46,7 @@ h2 {
 h3 {
     text-align: left;
     font-family: Arial, sans-serif;
-    color: #99ccff;
+    color: #1a75ff;
     font-size: 18px;
     padding: 10px;
     margin-left: 300px;
@@ -65,7 +65,7 @@ h6 {
 
 }
 p {
-    color: black;
+    color: #a6a6a6;
     text-align: center;
     font-family: Arial, sans-serif;
     line-height:30px;
