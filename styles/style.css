@@ -19,7 +19,7 @@ h1 {
     background-image: url("topic_bg.jpg");
     color: black;
     font-weight: bold;
-    word-spacing: 10px;
+    word-spacing: 5px;
     border-bottom-width: 0.2em;
     border-color: darkblue;
     border-bottom-style: solid;
@@ -28,11 +28,9 @@ h1 {
     border-radius: 25px;
     text-shadow: 3px 2px #ffc266;
     margin: 0;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
     padding: 4px;
     letter-spacing: 0.1em;
-    margin-left: 150px;
-    margin-right: 150px;
 
 }
 h2 {
@@ -89,8 +87,6 @@ li {
     font-family: Arial, sans-serif;
     line-height: 30px;
     display: block;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 img {
     border-radius: 20px;
@@ -101,8 +97,6 @@ img {
     margin-right: auto;
     border-style: solid;
     border-width: 2px;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 .center {
     display: block;
