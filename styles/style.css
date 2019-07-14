@@ -4,17 +4,19 @@ h1 {
     background-image: lightblue;
     color: black;
     font-weight: bold;
-    padding: 100px;
     word-spacing: 10px;
     border-bottom-width: 50px;
     border-color: darkblue;
     border-style: solid;
+    text-transform: uppercase;
+    padding: 20px;
 
 }
 h2 {
     text-align: left;
     font-family: "Times New Roman";
     color: black;
+    padding:15px;
 
 }
 h3 {
@@ -22,12 +24,14 @@ h3 {
     font-family: "Times New Roman";
     color: black;
     font-size: 18px;
+    padding: 10px;
 }
 h6 {
     text-align: center;
     color: black;
     font-family: sans-serif;
-    font-size: ;
+    font-size: 16px;
+    padding: 3px;
 
 }
 p {
@@ -41,5 +45,10 @@ ul {
     color: black;
     font-family: "Times New Roman";
     list-style-type: square;
+    font-style: bold;
 
+}
+li {
+    text_align: center;
+    font-family: "Times New Roman";
 }
