@@ -12,6 +12,8 @@ body {
     font-size: 20px;
     margin: 30px;
     padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 h1 {
     text-align: center;
