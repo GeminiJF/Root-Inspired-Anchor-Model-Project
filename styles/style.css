@@ -16,8 +16,8 @@ body {
 h1 {
     text-align: center;
     font-family: "Times New Roman", Arial;
-    background-image: url("topic_bg.jpg");
-    color: black;
+    background-image: linear-gradient(to right , #33ccff, #66ffcc);
+    color: white;
     font-weight: bold;
     word-spacing: 5px;
     border-bottom-width: 0.2em;
@@ -31,6 +31,7 @@ h1 {
     margin-bottom: 20px;
     padding: 4px;
     letter-spacing: 0.1em;
+    line-height: 100px;
 
 }
 h2 {
