@@ -8,6 +8,7 @@ h1 {
     word-spacing: 20px;
     border-bottom-width: 50px;
     border-color: darkblue;
+    border-style: solid;
 
 }
 h2 {
@@ -39,5 +40,6 @@ ul {
     text-align: center;
     color: black;
     font-family: "Times New Roman";
+    list-style-type: square;
 
 }
