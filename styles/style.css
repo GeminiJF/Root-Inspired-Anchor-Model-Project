@@ -2,22 +2,36 @@ h1 {
     text-align: center;
     font-family: "Times New Roman";
     background-image: url(topic_bg.jpg);
+    color: white;
+    font-weight: bold;
+    padding: 100px;
+
 }
 h2 {
     text-align: center;
     font-family: "Times New Roman";
+    color: black;
 
 }
 h3 {
     text-align: center;
     font-family: "Times New Roman";
+    color: black;
 }
 p {
     color: black;
-    text-align: center;
+    text-align: left;
+    font-family: "Times New Roman";
     font-family: Arial;
 }
 ul {
     text-align: center;
+    color: black;
+    font-family: "Times New Roman";
 
+}
+h6 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
 }
