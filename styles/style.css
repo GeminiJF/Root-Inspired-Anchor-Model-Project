@@ -12,8 +12,6 @@ body {
     font-size: 20px;
     margin: 30px;
     padding: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 h1 {
     text-align: center;
@@ -33,6 +31,8 @@ h1 {
     margin-bottom: 7px;
     padding: 4px;
     letter-spacing: 0.1em;
+    margin-left: 150px;
+    margin-right: 150px;
 
 }
 h2 {
@@ -40,6 +40,8 @@ h2 {
     font-family: Arial, sans-serif;
     color: black;
     padding:15px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 h3 {
@@ -48,6 +50,8 @@ h3 {
     color: black;
     font-size: 18px;
     padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 h6 {
     text-align: center;
@@ -55,6 +59,8 @@ h6 {
     font-family: Arial, sans-serif;
     font-size: 16px;
     padding: 3px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 p {
@@ -63,6 +69,8 @@ p {
     font-family: Arial, sans-serif;
     line-height:30px;
     letter-spacing: 0;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 ul {
@@ -72,6 +80,8 @@ ul {
     list-style-type: square;
     font-style: bold;
     list-style-position: outside;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 li {
@@ -79,6 +89,8 @@ li {
     font-family: Arial, sans-serif;
     line-height: 30px;
     display: block;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 img {
     border-radius: 20px;
@@ -89,10 +101,14 @@ img {
     margin-right: auto;
     border-style: solid;
     border-width: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    margin-left: 300px;
+    margin-right: 300px;
 }
