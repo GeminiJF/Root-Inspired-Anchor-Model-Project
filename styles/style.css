@@ -23,7 +23,7 @@ h1 {
     border-bottom-style: solid;
     text-transform: uppercase;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: none;
     text-shadow: 3px 2px #ffc266;
     margin: 0;
     margin-bottom: 20px;
@@ -31,6 +31,7 @@ h1 {
     letter-spacing: 0.1em;
     line-height: 100px;
     height: 2em;
+    padding-bottom: 1em;
 
 }
 h2 {
