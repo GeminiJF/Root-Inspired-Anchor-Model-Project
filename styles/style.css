@@ -21,13 +21,14 @@ h1 {
     font-weight: bolder 800;
     word-spacing: 5px;
     border-bottom-style: solid;
+    border-radius: 15px;
     text-transform: uppercase;
     padding: 20px;
     border-radius: none;
     text-shadow: 3px 2px #ffc266;
     margin: 0;
     margin-bottom: 20px;
-    padding: 4px;
+    padding-top: 1em;
     letter-spacing: 0.1em;
     line-height: 100px;
     height: 2em;
