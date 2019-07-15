@@ -18,7 +18,7 @@ h1 {
     font-family: "Times New Roman", Arial;
     background-image: linear-gradient(to right , #33ccff, #66ffcc);
     color: white;
-    font-weight: bold;
+    font-weight: bolder 800;
     word-spacing: 5px;
     border-bottom-style: solid;
     text-transform: uppercase;
