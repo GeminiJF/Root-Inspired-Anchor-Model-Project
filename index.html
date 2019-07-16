@@ -127,6 +127,22 @@
   <li> Since the scale of each feature is quite different, we need to utilize the normalization. By calculating all features’ mean and sigma(StandardScaler()), our data is normalized and ready to go.
   </li>
 </ul>
+<h3> <b> Dimension Reduction: </b>
+</h3>
+<ul>
+  <li> 1. After reducing interdependent features, what we are left with are 17 unique features. These 17 unique features are still too many for us because when we apply our algorithms, we didn’t get satisfactory results. (Some of the features are actually not of great importance.) Consequently, we decided to reduce our dimensions.
+  </li>
+</ul>
+<h5> <b> Two Strategies are utilized </b>
+</h5>
+<ul>
+  <li> a. By capturing variance, Principal Component Analysis is implemented to reduce the dimensions. After PCA, our dimensions are reduced to 7.
+  </li>
+  <li> b. One other way is through choosing a subset of features that maximizes information gain from all features. By doing so, we managed to figure out the best feature. And our dimensions are reduced to 6.
+  </li>
+</ul>
+
+
 
 
 
