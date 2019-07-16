@@ -119,9 +119,11 @@
   <li> When we received our data set, we found that we have 19 features. Some of the features are interrelated with each other, for example, two features’ named γAH' [N] and Nγ [ ], their multiplication equals to the maximum pullout force, which can not be utilized as the features.
   </li>
 </ul>
-<h3> <b> Data Normalization: </b>
+<h3> <b> Data Preprocessing: </b>
 </h3>
 <ul>
+  <li> There are several data points with values “inf” or “NaN”, by removing these data points, our final data points become 177. 
+  </li>
   <li> Since the scale of each feature is quite different, we need to utilize the normalization. By calculating all features’ mean and sigma(StandardScaler()), our data is normalized and ready to go.
   </li>
 </ul>
