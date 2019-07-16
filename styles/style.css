@@ -91,6 +91,7 @@ ul {
 }
 li {
     text-align: left;
+    list-style-type: square;
     font-family: Arial, sans-serif;
     line-height: 30px;
     display: block;
