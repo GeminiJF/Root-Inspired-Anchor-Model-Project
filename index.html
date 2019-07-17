@@ -176,6 +176,8 @@
 
 <h3> <b> Neural Network: </b>
 </h3>
+<p> <b> Neural network </b> are computing systems that are inspired by the biological neural networks that constitute animal brains. Such system performs tasks by consdiering examples, generally without being programmed with any task-specific rules.
+</p>
 <img src= "pictures/neural network.png" width = "400" height = "175" alt="neural network" align = "center">
 <p> We applied TensorFlow Keras to implement a neural network in order to reach a linear regression using our 12 different features including our bias (pandas.get_dummies converts n_count to six different categories to get numerical values). First, we flattened the input layer. Flatten allowed us to convert the feature map to a single column that fully connects to the hidden layers. Then, we created two hidden layers, the first one with 6 neurons and the other one with 4 neurons. Every neuron uses relu as the activation process since relu not only converges faster but also ensures linearity when it hits positive values. In the end, we finish the model with an output layer with one neuron which also has the relu activation.
 </p>
