@@ -176,10 +176,12 @@
 
 <h3> <b> Neural Network: </b>
 </h3>
+<img src= "pictures/neural network.png" width = "800" height = "350" alt="neural network" align = "center">
 <p> We applied TensorFlow Keras to implement a neural network in order to reach a linear regression using our 12 different features including our bias (pandas.get_dummies converts n_count to six different categories to get numerical values). First, we flattened the input layer. Flatten allowed us to convert the feature map to a single column that fully connects to the hidden layers. Then, we created two hidden layers, the first one with 6 neurons and the other one with 4 neurons. Every neuron uses relu as the activation process since relu not only converges faster but also ensures linearity when it hits positive values. In the end, we finish the model with an output layer with one neuron which also has the relu activation.
 </p>
 <p> After modeling, we optimized the model utilizing gradient descent and generated loss by using mean squared error. Then, we plugged training features and training models into the model and set epochs to be 1500. We also set testing features and testing labels as the validation to estimate the prediction.
 </p>
+<img src= "pictures/neural_network.PNG" width = "800" height = "350" alt="neural network" align = "center">
 <p> Overall, we got a really high accuracy for our model based on our training data: 95.71% with a loss that was 0.5363. However, when we compared the prediction made by the model on testing features with the actual value, the prediction seemed to be really close to 0, which demonstrated extreme overfitting (crying to death). In addition, the plot we generated also indicated overfitting. After all, it seems that our neural network was not able to make a generalization from training data to testing data.
 </p>
 
@@ -220,7 +222,6 @@
 
 <img src= "pictures/T_RBF_plot.png" width = "800" height = "350" alt="Kernel RBF plot" align = "center">
 <img src= "pictures/Logistic_Regression_plot.png" width = "800" height = "350" alt="Logistic Regression" align = "center">
-<img src= "pictures/neural_network.PNG" width = "800" height = "350" alt="neural network" align = "center">
 <img src= "pictures/T_Accuracy_different_algorithms.png" width = "800" height = "350" alt="Accuracy for different algorithms" align = "center">
 
 
