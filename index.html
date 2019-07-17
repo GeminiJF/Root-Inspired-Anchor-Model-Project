@@ -168,7 +168,7 @@
   <li> Then, we started to implement hyperparameter optimization and our predictive model got a better result. Originally, our “n-estimator”(decision tree quantity) is 1000, and “random-state” is a random number. However, after tuning, “n-estimator” is set to 281, and the parameter named “random-state” is tuned to be 187. The accuracy boosted to 86.17%.
   </li>
 </ul>
-<img src= "pictures/Accuracy_BA_Hyper.png" width = "800" height = "350" alt="Random Forest Compare Before and After Hyperparameter">
+<img src= "pictures/Accuracy_BA_Hyper.png" width = "400" height = "350" alt="Random Forest Compare Before and After Hyperparameter" align = "center">
 <p>In order to achieve a more accurate result, K fold cross-validation was also implemented for the data set. By combatting the overfitting issue, 10 fold validation is used in congruence with Random Forest ensemble learning. This means we utilize the same random forest algorithm, however, each 10% of data acted as the test data for one iteration. On average, for 2-10 fold validation, the average k-fold value is 0.89834. This means that our predictive model is pretty reliable and successful.
 </p>
 
