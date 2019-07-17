@@ -159,10 +159,15 @@
 
 
 
-<p>
-  <img src= "pictures/T_before_CV_hyperparameter.png" alt="Tree before Hyperparameter">
-  <img src= "pictures/T_PCA_plot.png" alt="Tree after hyperparameter">
-</p>
+<div id = "banner">
+  <div class = "inline-block">
+    <img src= "pictures/T_before_CV_hyperparameter.png" alt="Tree before Hyperparameter">
+  </div>
+
+  <div class = "inline-block">
+    <img src= "pictures/T_PCA_plot.png" alt="Tree after hyperparameter">
+  </div>
+</div>
 
 <ul>
   <li> Then, we started to implement hyperparameter optimization and our predictive model got a better result. Originally, our “n-estimator”(decision tree quantity) is 1000, and “random-state” is a random number. However, after tuning, “n-estimator” is set to 281, and the parameter named “random-state” is tuned to be 187. The accuracy boosted to 86.17%.

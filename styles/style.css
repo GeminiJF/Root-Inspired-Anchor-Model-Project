@@ -128,3 +128,6 @@ img {
     border-style: solid;
     border-width: 2px;
 }
+.inline-block {
+    display: inline-block;
+}
