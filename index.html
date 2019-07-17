@@ -192,10 +192,10 @@
 </p>
 <img src= "pictures/Linear_Regression_Plot.png" width = "800" height = "350" alt="Linear Regression" align = "center">
 <img src= "pictures/Polynomial_plot.png" width = "800" height = "350" alt="Kernel Polynomial" align = "center">
-<p>Through the result of the polynomial and linear regression, we can find that polynomial regression does not predict better than the linear regression algorithm. Then we are wondering if our data is linearly separable that makes linear regression more accurate than polynomial regression. We introduced perceptron, which is a classifier of whether our dataset is linearly separable or not. If the result converges with the given data sample, the dataset can be assumed to be linearly separable. We categorize our pullout capacity into a binary classification - high value and low values.
+<p>Through the result of the polynomial and linear regression, we can find that polynomial regression does not predict better than the linear regression algorithm. There are mainly two reasons. The first reason is that our data is linearly separable, which makes linear regression more accurate than polynomial regression. We confirm our hypothesis by introducing perceptron, which is a classifier of whether our dataset is linearly separable or not. If the result converges with the given data sample, the dataset can be assumed to be linearly separable. We categorize our pullout capacity into a binary classification - high values and low values. Just as the confusion matrix suggests below, we get the accuracy of 95.56%, meaning that our data is linearly separable. That is the reason that linear regression provides more accurate results.
 </p>
 <img src= "pictures/Polynomial_Degrees_plot.png" width = "800" height = "350" alt="Kernel Polynomial" align = "center">
-<p> By changing the degrees for polynomial regression, we can see different accuracy rates. When the degree reaches 4, it starts to overfit. The best result is given when the degree is 3, it gives the accuracy rate of 43.45%.
+<p> The second reason is that polynomial regression is very easy to overfit. By changing the degrees for polynomial regression, we can see different accuracy rates. When the degree reaches 4, it starts to overfit. The best result is given when the degree is 3, it gives the accuracy rate of 43.45%. 
 </p>
 <img src= "pictures/T_Perceptron_plot.png" width = "800" height = "350" alt="Perceptron Binary Classification" align = "center">
 <img src= "pictures/heat_map.png" width = "400" height = "175" alt="Perceptron heat map" align = "center">
