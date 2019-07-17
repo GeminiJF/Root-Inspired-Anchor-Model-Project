@@ -203,6 +203,16 @@
 <p>We utilized both Lasso and Ridge regression, trying to penalize the overfitting problem. By altering the value of , our predictive model’s accuracy decreases at the same time.  Primarily, it is because of the linearly separable nature of our datasets.
 </p>
 
+<h3> <b> Support Vector Machine(SVM): </b>
+</h3>
+<p> Support vector machine (SVM) was implemented in our dataset.
+</p>
+<p> Kernel RBF gives us an accuracy of 49.53%. This is actually the lowest accuracy value amongst every algorithm. That is because we are killing the generalization by going to infinite-dimension. It causes very serious overfitting. The decision boundary line will be super wiggle. The test data is again crying.
+</p>
+<img src= "pictures/T_RBF_plot.png" width = "800" height = "350" alt="Kernel RBF plot" align = "center">
+<p> We also implemented Kernel Sigmoid, which results in the accuracy of 70.85%. It is essentially not the best algorithm. Kernel Sigmoid is more likely to be used to solve classification problems. Since our data is hard to separate into categorical values due to large variance, the ultimate accuracy we got from this algorithm is low.
+</p>
+<img src= "pictures/Kernel_sigmoid_plot.png" width = "800" height = "350" alt="Logistic Regression" align = "center">
 
 <h2> <b> Future improvement: </b>
 </h2>
@@ -220,8 +230,8 @@
 </p>
 
 
-<img src= "pictures/T_RBF_plot.png" width = "800" height = "350" alt="Kernel RBF plot" align = "center">
-<img src= "pictures/Kernel_sigmoid_plot.png" width = "800" height = "350" alt="Logistic Regression" align = "center">
+
+
 <img src= "pictures/T_Accuracy_different_algorithms.png" width = "800" height = "350" alt="Accuracy for different algorithms" align = "center">
 
 
