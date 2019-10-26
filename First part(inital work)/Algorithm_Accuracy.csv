@@ -1,0 +1,8 @@
+Algorithm,Accuracy
+Random Forest,88.96
+RBF,65.93
+Polynomial,50.16
+Linear Regression,82.64
+Logistic Regression,77.49
+PCA,82.38
+Perceptron,77.78
