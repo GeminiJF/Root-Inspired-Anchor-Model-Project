@@ -1,0 +1,7 @@
+Algorithm,Accuracy
+Random Forest,86.31
+Kernel RBF,49.53
+Polynomial,43.45
+Linear,81.48
+Kernel Sigmoid,70.85
+Neural Network,75.7

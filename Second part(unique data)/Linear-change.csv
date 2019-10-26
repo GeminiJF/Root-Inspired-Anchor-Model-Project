@@ -1,0 +1,4 @@
+Linear Regression Models,Accuracy
+Linear Regression,85.44
+Ridge Regression,80.45
+Lasso Regression,76.17

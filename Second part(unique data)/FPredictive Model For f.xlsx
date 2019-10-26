@@ -1,0 +1,6 @@
+Algorithm,Accuracy
+Random Forest,95.34
+Kernel rbf,92.95
+Kernel Polynomial (3),92.67
+linear regression,93.13
+Neural Network,78.26
